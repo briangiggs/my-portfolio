@@ -1,26 +1,26 @@
 .container-layout {
 display: flex;
-padding: 100px;
+padding: 60px;
 gap: 200px;
-width: max-content ;
-height: max-content;
+height: 100%;
+width: 100%;
 background-color: #3B3A35; 
 }
 
 .column-left{
  flex: 1;   
  display: flex;
+ width: fit-content;
 }
 
-.column.right{
+.column-right{
     flex: 2;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: fit-content;
-    height: 1000px;
     margin: 0px;
-    gap: 50px;
+    gap: 40px;
+    height: 100%;
 }
 
 .text-icons{
@@ -219,8 +219,8 @@ h6{
 }
 .comingsoon-text{
     position: absolute;
-    top: 230px;  
+    top: 135px;  
     width: 150px;
     line-height: 25px;
-    left: 910px;
+    left: 986px;
 }
